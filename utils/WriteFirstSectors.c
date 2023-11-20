@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>   //lib头文件用于调用system函数
 
 int main() {
     FILE *file;
@@ -18,6 +19,8 @@ int main() {
 
     // 关闭文件
     fclose(file);
+
+    system("pause");
 
     return 0;
 }
